@@ -7,14 +7,21 @@
 }
 
 img {
-    max-width: 25%;
+    max-width: 100%;
+}
+
+.logo {
+    width: 100px;
     transition: 0.2s;
 }
 
-img:hover {
-    transform: scale(1.1);
-    border-bottom: 2px solid #00472eda;
-    border-top: 2px solid #00472eda;
+.logo:hover {
+    border-radius: 50%;
+    border-bottom: 1px solid #00472eda;
+    border-right: 1px solid #00472eda;
+    border-top: 1px dotted #00472eda;
+    border-left: 1px dotted #00472eda;
+    transform: scale(1.5);
 }
 
 body {
@@ -37,6 +44,7 @@ body {
     background: transparent;
     border-radius: 3px;
     box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+    transform: scale(1.2);
 }
 
 .relogio div {
